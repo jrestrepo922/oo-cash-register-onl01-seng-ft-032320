@@ -42,7 +42,10 @@ class CashRegister
     else 
       @total -= @price
     end 
+    binding.pry
   end 
   
 end 
+
+apple = CashRegister.new 
 
