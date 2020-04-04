@@ -42,7 +42,7 @@ class CashRegister
     else 
       @total = 0
     end 
-    binding.pry
+    #binding.pry
   end 
   
 end 
