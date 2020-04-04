@@ -38,9 +38,9 @@ class CashRegister
   def void_last_transaction
     
     if items.uniq.length == items.length
-      @total = 0
+      @total -= @price @total = 0
     else 
-      @total -= @price
+      
     end 
     binding.pry
   end 
