@@ -47,6 +47,6 @@ class CashRegister
   
 end 
 
-apple = CashRegister.new 
+cash_register = CashRegister.new 
 cash_register.add_item("apple", 0.99)
 cash_register.void_last_transaction
